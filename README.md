@@ -4,8 +4,8 @@ A Windows tray app for [MrKraken's StarStrings](https://github.com/MrKraken/Star
 installs the `global.ini` localization pack for **Star Citizen LIVE** if you don't have it
 yet, and keeps it current after that.
 
-<img width="244" height="547" alt="{050A2347-FF75-467A-B852-A6B21F7ACA91}" src="https://github.com/user-attachments/assets/12754fb9-6a2c-4316-b788-14b82cb60f03" />
-<img width="625" height="214" alt="{FE93B572-C3F1-4909-BAD1-39905B5C4C2A}" src="https://github.com/user-attachments/assets/d8a79c9e-9dce-4bf1-acf8-d295e8311cb2" />
+<img width="300" alt="Settings panel" src="docs/screenshots/settings.png" />
+<img width="650" alt="Tray right-click menu" src="docs/screenshots/tray-menu.png" />
 
 
 It watches the StarStrings releases page in the background, and when a new version shows up
