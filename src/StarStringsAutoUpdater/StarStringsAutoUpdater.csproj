@@ -24,6 +24,10 @@
     <Description>Keeps MrKraken's StarStrings global.ini up to date for Star Citizen LIVE.</Description>
     <Company>StarStrings Auto-Updater Project</Company>
     <Version>1.1.0</Version>
+    <Authors>Matt (10-Gauge)</Authors>
+    <Copyright>Copyright (c) 2026 Matt (10-Gauge)</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/10-Gauge/StarStrings-Auto-Updater</RepositoryUrl>
     <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
   </PropertyGroup>
 

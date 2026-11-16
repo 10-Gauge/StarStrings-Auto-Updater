@@ -128,3 +128,12 @@ something like `CheckIntervalMinutes` directly. Just restart the app after.
   two when something's actually new, so it stays well within the limit at the default 30-minute
   interval. The Star Citizen version lookup is a separate plain file fetch, not the API, and
   only happens right after an install.
+
+## License
+
+This app's source code is released under the [MIT License](LICENSE).
+
+That covers this updater only. The StarStrings localization pack it downloads, and the
+StarStrings mark used in the app icon, belong to [MrKraken's StarStrings](https://github.com/MrKraken/StarStrings)
+project and are covered by that project's own terms. Star Citizen is a trademark of Cloud
+Imperium Games; this app isn't affiliated with or endorsed by CIG.
