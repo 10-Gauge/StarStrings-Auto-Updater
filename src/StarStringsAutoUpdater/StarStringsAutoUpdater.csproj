@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <AssemblyName>StarStringsAutoUpdater</AssemblyName>
+    <RootNamespace>StarStringsAutoUpdater</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+
+    <!-- Publish as a single self-contained win-x64 executable -->
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+
+    <Product>StarStrings Auto-Updater</Product>
+    <AssemblyTitle>StarStrings Auto-Updater</AssemblyTitle>
+    <Description>Keeps MrKraken's StarStrings global.ini up to date for Star Citizen LIVE.</Description>
+    <Company>StarStrings Auto-Updater Project</Company>
+    <Version>1.1.0</Version>
+    <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\AppIcon.ico" />
+    <EmbeddedResource Include="Assets\AppIconPaused.ico" />
+  </ItemGroup>
+
+</Project>
